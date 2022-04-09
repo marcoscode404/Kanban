@@ -1,3 +1,3 @@
 # Kanban Board
 
-![kanban-1](https://user-images.githubusercontent.com/89729177/134899036-5f23afc8-977d-4d17-b48a-334d3d6ab2b1.png)
+![image](https://user-images.githubusercontent.com/51343240/162560273-d6a9b819-bdcc-4127-ba9f-6f5647cc34b8.png)
