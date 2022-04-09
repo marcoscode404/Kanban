@@ -123,7 +123,8 @@ function App() {
   return (
     <div className="app">
       <div className="app_nav">
-        <h1>Kanban Board</h1>
+        <h1>Kanban Colab</h1>
+        <div className="user"></div>
       </div>
       <div className="app_boards_container">
         <div className="app_boards">

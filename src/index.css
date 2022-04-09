@@ -13,6 +13,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root{
+  --white: #fff;
+  --red: rgba(255, 0, 0, 0.808);
+  --black: #000;
+  --background-header: #493DA8;
+}
+
 p {
   font-size: 1rem;
   line-height: 1.875rem;

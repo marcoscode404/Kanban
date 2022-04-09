@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  
 }
 
 .board_header {
@@ -20,10 +21,11 @@
   display: flex;
   gap: 5px;
   align-items: center;
+  color: #fff;
 }
 
 .board_header_title span {
-  color: rgb(145, 145, 145);
+  color: var(--white);
 }
 
 .board_header_title_more {
@@ -32,15 +34,29 @@
 }
 
 .board_dropdown {
+  text-align: center;
   box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.12);
   padding: 20px;
   width: 150px !important;
   cursor: default;
+  transition: .1s;
 }
 .board_dropdown p {
   border-bottom: 1px solid #f8f8f8;
   cursor: pointer;
+  font-weight: bold;
+  
 }
+
+.board_dropdown:hover{
+  background-color: var(--red);
+  color: var(--white);
+}
+
+
+
+
+
 
 .board_cards {
   background-color: #f8f8f8;
@@ -53,15 +69,15 @@
 }
 
 .board_add-card {
-  background-color: #fff;
-  color: #000;
+  background-color: var(--white);
+  color: var(--black);
   border-radius: 10px;
   box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.12);
   width: 100%;
   text-align: center;
 }
 .board_add-card_edit {
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 10px;
   padding: 10px;
 }

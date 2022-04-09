@@ -20,12 +20,23 @@
 }
 
 .app_nav {
-  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
   box-shadow: 0 1px 20px rgba(56, 40, 40, 0.05);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
+  background-color: var(--background-header);
+  color:  #fff;
+}
+
+.user {
+  width: 3rem;
+  height: 3rem;
   background-color: #fff;
+  border-radius: 50%;
 }
 
 .app_boards_container {
@@ -34,6 +45,12 @@
   height: 100%;
   overflow-x: auto;
   padding-top: 20px;
+  background-color: #21d5fd56;
+  background-image: -webkit-linear-gradient(19deg, #21d5fd6c 0%, #b921ff98 100%);
+  background-image: -moz-linear-gradient(19deg, #21d5fd73 0%, #b921ffb7 100%);
+  background-image: -o-linear-gradient(19deg, #21d5fd7a 0%, #b921ff8c 100%);
+  background-image: linear-gradient(19deg, #21d5fd9a 0%, #b921ff96 100%);
+
 }
 
 .app_boards {
@@ -56,9 +73,41 @@
   box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.12);
   width: 100%;
   text-align: center;
+ 
 }
 .app_boards_add-board_edit {
-  background-color: #fff;
+  background-color: rgb(29, 97, 153);
   border-radius: 10px;
   padding: 10px;
+  
+}
+
+
+/* scrollbar horizontal */
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+  margin: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #726AD0;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+  margin: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  margin: 1rem;
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+  
+  
+}
+
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+  margin: 1rem;
 }

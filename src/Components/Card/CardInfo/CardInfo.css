@@ -7,6 +7,7 @@
   width: fit-content;
   max-width: 650px;
   height: fit-content;
+  
 }
 
 .cardinfo_box {
@@ -20,6 +21,7 @@
   display: flex;
   gap: 10px;
   align-items: center;
+  
 }
 
 .cardinfo_box_title p {
